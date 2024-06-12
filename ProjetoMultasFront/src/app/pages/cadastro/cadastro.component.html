@@ -1,0 +1,69 @@
+<div class="form-row">
+  <div class="col">
+    <h2>Cadastrar Produto</h2>
+    <form [formGroup]="cadastroForm" (submit)="cadastrarUsuario()">
+      <div class="form-row">
+        <div class="form-group col-md-8">
+          <label for="inputEmail4">Nome</label>
+          <input
+            class="form-control"
+            required=""
+            formControlName="nome"
+            required=""
+          />
+          <small
+            class="error-input"
+            *ngIf="cadastroForm.get('nome')?.errors?.['required'] && cadastroForm.get('nome')?.touched"
+            >Campo Obrigatório!
+          </small>
+        </div>
+      </div>
+      <div class="form-row"></div>
+      <div class="form-row">
+        <div class="form-group col-md-8">
+          <label for="inputAddress">Email</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            formControlName="email"
+          />
+          <small
+            id="emailHelp"
+            class="error-input"
+            *ngIf="cadastroForm.get('email')?.errors?.['required'] && cadastroForm.get('email')?.touched"
+            >Campo Obrigatório!
+          </small>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-8">
+          <label for="inputAddress2">Senha</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder=""
+            formControlName="senha"
+            required=""
+          />
+          <small
+            id="emailHelp"
+            class="error-input"
+            *ngIf="cadastroForm.get('senha')?.errors?.['required'] && cadastroForm.get('senha')?.touched"
+            >Campo Obrigatório!
+          </small>
+        </div>
+      </div>
+
+      <button
+        type="submit"
+        class="btn btn-primary"
+        [ngClass]="{ disabled: !cadastroForm.valid }"
+        [disabled]="!cadastroForm.valid"
+      >
+        Cadastrar Produto
+      </button>
+    </form>
+  </div>
+  <div class="col"></div>
+</div>

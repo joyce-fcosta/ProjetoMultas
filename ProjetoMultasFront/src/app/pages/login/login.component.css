@@ -1,0 +1,38 @@
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+    .container-login-central{
+
+        width: 460px;
+        height: 445px;
+        
+        background-color: #f5f5f5;
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+         border-radius: 12px;
+}
+
+.login-titulo{
+    font-size: 48px;
+    font-style: normal;
+    color: #1b212d;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    height: 60px;
+    margin: 20px;
+}
+.formulario-login{
+    padding-left: 25px;
+padding-right: 25px;
+}
+.error-input{
+    color:red
+}
+.disabled{
+    opacity: 0.6;
+}
+}
