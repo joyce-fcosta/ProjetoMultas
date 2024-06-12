@@ -84,3 +84,4 @@ C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\WebApi\bin\D
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\WebApi\bin\Debug\net8.0\Infra.pdb
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json

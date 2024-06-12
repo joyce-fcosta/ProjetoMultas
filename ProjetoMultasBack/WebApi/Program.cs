@@ -1,4 +1,5 @@
 using Domain.Interfaces;
+using Domain.Services;
 using Entities.Entities;
 using Infra.Configuration;
 using Infra.Repository;
@@ -53,7 +54,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(option => option.SignIn.Req
 
 //Injeção de dependência
 builder.Services.AddSingleton(typeof(IGenerics<>), typeof(RepositoryGenerics<>));
-//builder.Services.AddSingleton<IMulta, RepositoryMulta>();
+builder.Services.AddSingleton<IMulta, RepositoryMulta>();
+builder.Services.AddSingleton<IServiceMulta, ServiceMultas>();
 
 
 builder.Services.Configure<IdentityOptions>(options =>

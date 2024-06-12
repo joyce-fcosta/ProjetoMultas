@@ -13,3 +13,4 @@ C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Domain\bin\D
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Domain\bin\Debug\net8.0\Entities.pdb
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Domain\obj\Debug\net8.0\Domain.sourcelink.json
