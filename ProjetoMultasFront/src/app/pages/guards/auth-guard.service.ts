@@ -25,6 +25,7 @@ export class AuthGuard implements CanActivate {
     | UrlTree {
     return new Promise((resolve) =>
       this.authService.checkToken().then((x) => {
+        console.log(resolve);
         this.authService
           .UsuarioEstaAutenticado()
           .then((status) => {

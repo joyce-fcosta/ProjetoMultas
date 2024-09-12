@@ -51,13 +51,13 @@ export class LoaderInterceptor implements HttpInterceptor {
       headers: new HttpHeaders({
         contentType: 'false',
         processData: 'false',
-        Authorization: this.authService.getToken,
+        Authorization: 'Bearer ' + this.authService.getToken,
       });
     } else {
       headers = new HttpHeaders()
         .append('accept', 'application/json')
         .append('Content-Type', 'application/json')
-        .append('Authorization', this.authService.getToken);
+        .append('Authorization', 'Bearer ' + this.authService.getToken);
     }
 
     let request = req.clone({ headers });

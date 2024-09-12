@@ -8,9 +8,23 @@ export class LoginService {
 
   private readonly baseUrl = environment['endPoint'];
   login(usuario: any) {
+    // console.log(usuario);
     return this.httpClient.post(
       `http://localhost:5018/api/CreateToken`,
-      usuario
+      usuario,
+      {
+        responseType: 'text',
+      }
+    );
+  }
+  loginTest(usuario: any) {
+    // console.log(usuario);
+    return this.httpClient.post(
+      `http://localhost:5018/api/CreateTokenTeste`,
+      usuario,
+      {
+        responseType: 'text',
+      }
     );
   }
 }

@@ -11,10 +11,10 @@ C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\De
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.AssemblyInfoInputs.cache
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.AssemblyInfo.cs
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.sourcelink.json
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.csproj.Up2Date
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.dll
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\refint\Infra.dll
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.pdb
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.genruntimeconfig.cache
 C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\ref\Infra.dll
-C:\Users\joyce\Documents\PORTIFOLIO\ProjetoMultas\ProjetoMultasBack\Infra\obj\Debug\net8.0\Infra.sourcelink.json

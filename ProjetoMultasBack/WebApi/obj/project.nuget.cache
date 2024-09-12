@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "09DGg9vyFHk=",
+  "dgSpecHash": "C1J0a/iOpRU=",
   "success": true,
   "projectFilePath": "C:\\Users\\joyce\\Documents\\PORTIFOLIO\\ProjetoMultas\\ProjetoMultasBack\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -68,5 +68,12 @@
     "C:\\Users\\joyce\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\joyce\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Uma tarefa foi cancelada."
+    }
+  ]
 }

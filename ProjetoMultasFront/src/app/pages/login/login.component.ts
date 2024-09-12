@@ -35,11 +35,14 @@ export class LoginComponent {
 
   loginUser() {
     const form = this.loginForm.getRawValue();
+    // console.log(form);
+
     this.loginService.login(form).subscribe({
       next: (dadosUsuario) => {
-        console.log(dadosUsuario);
         let user2: any = dadosUsuario;
+        JSON.parse(user2);
         this.user = user2;
+
         this.authService.setToken(this.user.token);
         this.authService.setId(this.user.id);
         this.authService.setTipoUser(this.user.tipo);
@@ -52,4 +55,21 @@ export class LoginComponent {
       },
     });
   }
+  //   this.loginService.login(form).subscribe({
+  //     next: (dadosUsuario) => {
+  //       console.log(dadosUsuario);
+  //       let user2: any = dadosUsuario;
+  //       this.user = user2;
+  //       this.authService.setToken(this.user.token);
+  //       this.authService.setId(this.user.id);
+  //       this.authService.setTipoUser(this.user.tipo);
+  //       this.authService.UsuarioAutenticado(true);
+  //       this.route.navigate(['/dashboard']);
+  //     },
+  //     error: (error) => {
+  //       alert('Ocorreu um erro');
+  //       console.log(error);
+  //     },
+  //   });
+  // }
 }
